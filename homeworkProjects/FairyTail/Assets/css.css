@@ -14,12 +14,12 @@ body {
 }
 
 #logo {
-	   position: absolute;
-	    top: 6px;
-	    left: 75%;
-	    height: 140px;
-	}
-
+	   position: fixed;
+    top: 8px;
+    right: 31px;
+    height: 120px;
+    width: 290px;
+}
 /*#button1 {
 	    position: relative;
     top: 198px;
@@ -150,7 +150,7 @@ body {
 	padding: 10px;
 	}
 .musicDiv {
-position:absolute;
+position:fixed;
 	right: 60px;
 	height: 60px;
 	width:200px;

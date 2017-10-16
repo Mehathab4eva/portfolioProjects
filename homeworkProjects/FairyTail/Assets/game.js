@@ -6,6 +6,7 @@ window.onload = function() // to make sure that JS loads after the webpage is lo
 	var audio = new Audio("Assets/FairyTailTheme.mp3");
 	var mouseClick = new Audio("Assets/MouseClick.mp3");
 	audio.play();
+	audio.volume = 0.2;
 	
 	// $("#mute").on("click",function(){
 	// 	$("#mute").toggle(
