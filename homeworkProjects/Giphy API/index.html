@@ -1,0 +1,44 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get your Giphy</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="giphy.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="row">
+		<!--This is where the buttons go-->
+		<div class="col-sm-9" id="topicView"></div><br><br>
+			<div class="col-sm-3">
+		<!--This is where the form goes-->
+				<form id="Searchform">
+					<label form="searchForm"><h3>Search Your gif</h3></label>
+					<input type="text" id="searchInput"><br>
+					<input id="addSearch" type="submit" value="Submit">
+				</form>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<!--This is where the gifs go-->
+		<div class="col-sm-12" id="searchGifs"></div>
+	</div>
+
+</div>
+
+	<footer><br><br><p id="footerText">&copy copyright 2018 Mehathab Shaik </p></footer>
+			
+
+
+<script type="text/javascript" src="giphy.js"></script>
+</body>
+</html>

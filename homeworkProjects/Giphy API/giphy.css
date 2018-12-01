@@ -1,0 +1,79 @@
+/*#header {
+	height: 10%;
+	width: 100%;
+	background-color: blue;
+	text-align:center;
+	line-height: 10%;
+}
+
+#buttons {
+	height: 30%;
+	width: 100%;
+	line-height: 10%;
+	
+}
+
+*/
+
+
+body {
+	background-color: #4caf50;;
+}
+
+h3{
+	font-family: "Georgia", serif;
+	color: #152329;
+}
+
+
+.container{
+	width: 100%;
+	min-height: 900px;
+}
+
+input#addSearch{
+	width: 100px;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-family: "Georgia", serif;
+	background-color: #af080e;;
+	color: white;
+
+}
+button.topic{
+	width: auto;
+	height: 40px;
+	border-radius: 12px;
+	font-family: "Georgia", serif;
+	background-color: #af080e;
+	color: white;
+}
+
+.item{
+	float: left;  
+	margin: 15px;
+}
+
+img {
+	border: 1px solid #af080e;
+}
+
+p{
+	font-family: "Georgia", serif;
+	color: #af080e;
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	text-align: center;	
+	background-color: #af080e;
+	height: 100px;
+	
+}
+
+#footerText {
+	color: white;
+	font-weight: bold;
+}
